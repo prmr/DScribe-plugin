@@ -1,4 +1,4 @@
-package ca.mcgill.cs.dscribe.handlers;
+package ca.mcgill.cs.stl.dscribe.plugin.handlers;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileDescriptor;

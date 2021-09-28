@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Dscribe
-Bundle-SymbolicName: ca.mcgill.cs.dscribe;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Name: DscribePlugin
+Bundle-SymbolicName: ca.mcgill.cs.stl.dscribe.plugin;singleton:=true
+Bundle-Version: 1.0.0
 Automatic-Module-Name: ca.mcgill.cs.dscribe
 Bundle-RequiredExecutionEnvironment: JavaSE-14
 Require-Bundle: org.eclipse.ui,

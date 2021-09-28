@@ -6,7 +6,7 @@
       <menuContribution
             locationURI="popup:org.eclipse.ui.popup.any">
             <command
-                  commandId="ca.mcgill.cs.dscribe.commands.runDScribe"
+                  commandId="ca.mcgill.cs.stl.dscribe.plugin.handlers.RunDScribe"
                   mnemonic="S">
                   <visibleWhen>
 				           <with variable="activeMenuSelection">
@@ -26,14 +26,14 @@
          point="org.eclipse.ui.commands">
          <command
             name="Run DScribe"
-            id="ca.mcgill.cs.dscribe.commands.runDScribe">
+            id="ca.mcgill.cs.stl.dscribe.plugin.handlers.RunDScribe">
       </command>
    </extension>   
    <extension
          point="org.eclipse.ui.handlers">
       <handler
-            class="ca.mcgill.cs.dscribe.handlers.RunDScribe"
-            commandId="ca.mcgill.cs.dscribe.commands.runDScribe">
+            class="ca.mcgill.cs.stl.dscribe.plugin.handlers.RunDScribe"
+            commandId="ca.mcgill.cs.stl.dscribe.plugin.handlers.RunDScribe">
       </handler>
    </extension>
 </plugin>

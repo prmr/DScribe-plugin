@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/ca.mcgill.cs.stl.dscribe_1.0.0.jar" id="ca.mcgill.cs.stl.dscribe" version="1.0.0">
+      <category name="ca.mcgill.cs.stl.dscribe"/>
+   </feature>
+   <category-def name="ca.mcgill.cs.stl.dscribe" label="DScribe">
+      <description>
+         DScribe is a plugin for Eclipse that allows you to test and document
+recurring concerns consistently and with ease. You simply define
+joint templates to capture the structure to test and document
+a specification. Then, you use method-level Java annotations
+to invoke the templates, thus generating the unit tests and documentation.
+      </description>
+   </category-def>
+</site>
